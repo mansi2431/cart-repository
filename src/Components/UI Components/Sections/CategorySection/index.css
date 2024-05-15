@@ -1,0 +1,47 @@
+.category-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.heading-container h2 {
+  font-size: 2.6rem;
+}
+
+.heading-container p {
+  font-size: 1.4rem;
+  color: gray;
+  margin-top: 0.25rem;
+}
+
+.category-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  gap: 1.5rem;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-card img {
+  border-radius: 12px;
+}
+
+.category-card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: rgb(35, 35, 35);
+}

@@ -1,0 +1,35 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 15vh;
+}
+
+.nav-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.active {
+  color: rgb(49, 49, 49);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 0 2rem;
+}
